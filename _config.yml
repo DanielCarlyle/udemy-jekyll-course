@@ -26,6 +26,14 @@ github_username: dcarlyle
 markdown: kramdown
 
 permalink: none
+comments: true
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "post"
+      author: "Dan Carlyle"
+      category: "jekyll"
 
 # theme: minima
 plugins:

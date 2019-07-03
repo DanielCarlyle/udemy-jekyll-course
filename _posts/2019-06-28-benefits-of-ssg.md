@@ -1,15 +1,13 @@
 ---
-layout: post
 title: Benefits of Static Site Generators
 date: 2019-06-28 12:00
-category: jekyll
 tags: [hot, summer]
-author: Dan Carlyle
 image: http://placehold.it/900x300
-lead: "          If there is a lesson to be learned, it is the futility of seeking
-          fulfillment in outer space. We need to judge ourselfs by who we are,
-          not by where we go."
-subtitie:  create an ultra-fast, secure blog that is easy to maintain and easy to scale         
+lead:
+  "          If there is a lesson to be learned, it is the futility of seeking
+  fulfillment in outer space. We need to judge ourselfs by who we are,
+  not by where we go."
+subtitle: create an ultra-fast, secure blog that is easy to maintain and easy to scale
 ---
 
 # Welcome
