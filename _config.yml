@@ -18,8 +18,8 @@ email: dan.carlyle@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   "Great web agency offering affordable web development services. From web design to SEO to web development and hosting to custom web applications."
 baseurl: "" # the subpath of your site, e.g. /blog
-# url: "http://127.0.0.1:4000/" the base hostname & protocol for your site, e.g. http://example.com
-url: "https://danielcarlyle.github.io/udemy-jekyll-course/"
+url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://danielcarlyle.github.io/udemy-jekyll-course/"
 twitter_username: danielcarlyle
 github_username: dcarlyle
 

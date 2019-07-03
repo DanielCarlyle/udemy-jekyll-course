@@ -8,26 +8,24 @@
         <h2>
           <a href="{{ post.url }}">{{ post.title }}</a>
         </h2>
-
-        <p class="lead">{{ post.author }}</p>
+        <p class="lead">by {{ post.author }}</p>
         <p>
           <span class="glyphicon glyphicon-time"></span> Posted on
-          {{ post - date | date: "%B %d, %Y" }}
+          {{ post.date | date: "%B %d, %Y" }}
         </p>
-        <hr />
-        {% if post.image %}
+        {% if page.image %}
         <img
           class="img-responsive"
           src="{{ post.image }}"
           alt="{{ post.title }}"
         />
+        <hr />
         {% endif %}
-
         {{ post.excerpt }}
-
         <a class="btn btn-primary" href="{{ post.url }}"
           >Read More <span class="glyphicon glyphicon-chevron-right"></span
         ></a>
+
         <hr />
         {% endfor %}
       </div>
